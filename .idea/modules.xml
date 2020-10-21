@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-Eureka-server7001/cloud-Eureka-server7001.iml" filepath="$PROJECT_DIR$/cloud-Eureka-server7001/cloud-Eureka-server7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-commons/cloud-commons.iml" filepath="$PROJECT_DIR$/cloud-commons/cloud-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-comsumer-order80/cloud-comsumer-order80.iml" filepath="$PROJECT_DIR$/cloud-comsumer-order80/cloud-comsumer-order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" filepath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" filepath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycloud.iml" filepath="$PROJECT_DIR$/mycloud.iml" />
+    </modules>
+  </component>
+</project>
