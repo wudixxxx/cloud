@@ -1,0 +1,21 @@
+#bootstrap.xml
+server:
+  port: 3377
+
+spring:
+  application:
+    name: nacos-order-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #Nacos服务注册中心地址
+      config:
+        server-addr: localhost:8848 #Nacos作为配置中心地址
+        file-extension: yaml  #指定yaml格式的配置
+        namespace: 1a9eb235-5053-45fb-a871-1a41306a60d5 #不指定找默认的命名空间
+        group: order #分组
+        cluster-name: cluster1
+
+
+# ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file.extension}
+# nacos-config-client-dev.yml

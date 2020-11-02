@@ -1,0 +1,21 @@
+server:
+  port: 80
+
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka
+#yml添加配置,开启 hystrix
+feign:
+  hystrix:
+    enabled: true
+
+spring:
+  application:
+    name: feign-service
+  zipkin:
+    base-url: http://localhost:9411
+    sleuth:
+      sampler:
+        probability: 1 #介于0和1之间，1为全部都采取
