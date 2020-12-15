@@ -1,0 +1,5 @@
+<root>
+    <item name='com.alibaba.cloud.nacos.NacosDiscoveryAutoConfiguration'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
